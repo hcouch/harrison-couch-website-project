@@ -1,0 +1,105 @@
+html {
+    height:100%;
+    font-family: ariel,helvetica;
+}
+
+body {
+    margin: 0;
+    background-attachment: fixed;
+
+}
+
+#header img {
+    margin: 15px;
+    text-indent:-9000px;
+    height:72px;
+    width: 216px;
+}
+
+
+#container {
+    margin: 0 100px;
+
+}
+
+#main {
+    height: 400px;
+    width: 850px;
+    padding: 10px;
+}
+
+#window {
+            background: #921F21 url('/images/bear.jpg') repeat-x 0 0;
+
+    background-color: #fff;
+    color: #000;
+    height: 340px;
+    width: 800px;
+    padding: 5px 10px 20px;
+    margin: 20px 5px 10px 15px;
+}
+
+#nav{
+overflow: hidden;
+width: 100%;
+font-size: 14px;
+}
+
+#nav ul{
+    
+list-style-type: none;
+margin: 0;
+padding: 0;
+}
+
+#nav li{
+    font-size: 20px;
+    float: left;
+    margin: 0 10px 0 0 ;
+    padding: 5px 0px 10px 20px;
+}
+
+#nav a{
+float: left;
+position: relative;
+top: 5px; 
+margin: 0;
+margin-right: 20px; 
+padding: 0 0 0 9px;
+text-decoration: none;
+color: #fff;
+
+}
+
+#nav .selected a{
+background-position: 0 -125px;
+top: 0;
+}
+
+#nav a:hover{
+background-position: 0% -125px;
+top: 0;
+}
+
+
+#info {
+    padding: 30px;
+}
+
+#pizza {
+    display: inline-block;
+    margin: 5px;
+    float: left;
+    
+}
+#pasta {
+    display:inline-block;
+    margin: 5px;
+    
+}
+
+#footer {
+    font-style: italic;
+    color: #fff;
+    margin: 0 10px;
+}
